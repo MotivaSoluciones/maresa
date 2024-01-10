@@ -250,7 +250,8 @@ input[type="submit"] {
     position: relative;
     background-color: #f49712;
     font-size: 12px;
-    border: none;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 .button:hover,
