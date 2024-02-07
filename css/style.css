@@ -248,7 +248,7 @@ input[type="submit"] {
     transition: all 0.3s ease 0s;
     background: transparent;
     position: relative;
-    background-color: #f49712;
+    background-color: #000000;
     font-size: 12px;
     border-radius: 10px;
     font-weight: 600;
@@ -1358,7 +1358,7 @@ blockquote.style2:after {
 }
 
 .mini-cart .count {
-    background-color: #f49712;
+    background-color: #000000;
     border-radius: 50%;
     color: #fff;
     font-size: 10px;
@@ -1764,7 +1764,7 @@ blockquote.style2:after {
 
 .header.style3 .main-menu > li > a:hover,
 .header.style3 .main-menu > li.active > a {
-    color: #f49712;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -3086,8 +3086,8 @@ DS .product-list .product-item {
 /* PRODUCT STYLE 3*/
 
 .product-item.style3 .add_to_cart_button {
-    border: 1px solid #F49712;
-    background-color: #F49712;
+    border: 1px solid #000000;
+    background-color: #000000;
     color: #fff;
     margin-top: 15px;
     font-weight: 600;
@@ -3611,7 +3611,7 @@ DS .product-list .product-item {
 .tagcloud .activo,
 .tagcloud a:hover {
     color: #fff;
-    background-color: #f49712;
+    background-color: #000000;
 }
 
 .widget_price_filter .price_slider_wrapper {
@@ -4174,7 +4174,7 @@ FOOTER
 
 .footer .widget .widget-title {
     font-size: 16px;
-    color: #f49712;
+    color: #000000;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: 600;
@@ -4912,7 +4912,7 @@ FOOTER
     content: '';
     width: 50px;
     height: 2px;
-    background-color: #f49712;
+    background-color: #000000;
     display: block;
     margin: 0 auto;
     margin-top: 5px;
@@ -5582,7 +5582,7 @@ FOOTER
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #f49712;
+    background-color: #000000;
     margin: 0 auto;
     margin-top: 8px;
     content: '';
@@ -5708,7 +5708,7 @@ FOOTER
 
 .tab-product .box-categories li a span {
     display: none;
-    color: #f49712;
+    color: #000000;
     font-size: 12px;
     text-transform: none;
     line-height: 18px;
@@ -5740,7 +5740,7 @@ FOOTER
 }
 
 .tab-product .box-categories .nav-tab__submenu .submenu-item:hover {
-    color: #f49712;
+    color: #000000;
 }
 
 .tab-product .box-categories .nav-tab__submenu [data-animated] {
@@ -6390,7 +6390,7 @@ FOOTER
     clear: left;
     padding: 16px 33px;
     font-size: 14px;
-    background: #f49712;
+    background: #000000;
 }
 
 .product-details-right .quantity {
@@ -6649,7 +6649,7 @@ FOOTER
     display: block;
     width: 0%;
     margin-top: 3px;
-    background-color: #f49712;
+    background-color: #000000;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
@@ -7965,7 +7965,7 @@ BLOG PAGE
     z-index: 9999;
     right: 10px;
     bottom: 60px;
-    background-color: #f49712;
+    background-color: #000000;
     display: none;
     color: #fff;
     text-align: center;
@@ -7977,7 +7977,7 @@ BLOG PAGE
 .scroll_top:focus,
 .scroll_top:active {
     color: #fff;
-    background-color: #f49712;
+    background-color: #000000;
 }
 
 .brands-slide img:hover {
@@ -9638,7 +9638,7 @@ RESPONSIVE
 }
 
 .basket {
-    background: #f49712;
+    background: #000000;
     border-radius: 100%;
     height: 24px;
     line-height: 24px;
@@ -9720,7 +9720,7 @@ RESPONSIVE
     background-color: #fff;
 
     border-left: 0;
-    color: #f49712;
+    color: #000000;
     padding: 11px 15px 13px;
     font-size: 14px;
     margin-top: 15px;
@@ -9728,7 +9728,7 @@ RESPONSIVE
 }
 
 .favorito:hover {
-    color: #f49712;
+    color: #000000;
 
 }
 
@@ -9765,7 +9765,7 @@ li.info-pts {
 }
 
 .color-verde {
-    color: #f49712;
+    color: #000000;
 }
 
 .mrg-0 {
@@ -9816,7 +9816,7 @@ li.info-pts {
 .appWhatsapp {
 
     border-radius: 16px;
-    background: #f49712;
+    background: #000000;
     color: rgb(255, 255, 255);
 
     align-items: center;
@@ -9863,7 +9863,7 @@ li.info-pts {
     width: 35px;
     max-height: 35px;
     height: 50px !important;
-    background-color: #f49712;
+    background-color: #000000;
     border-radius: 50%;
     position: absolute;
     bottom: 15px;
@@ -9963,7 +9963,7 @@ li.info-pts {
 }
 
 .box-codigo {
-    background: #f49712;
+    background: #000000;
     border-radius: 25px;
     padding: 10px 25px;
     color: #fff;
@@ -9976,7 +9976,7 @@ li.info-pts span {
 
 .now .active a {
     font-weight: 600;
-    color: #f49712 !important;
+    color: #000000 !important;
 }
 
 .product-thumb {
@@ -9989,7 +9989,7 @@ li.info-pts span {
 }
 
 .red {
-    color: #f49712;
+    color: #000000;
 }
 
 .img-inicial {
