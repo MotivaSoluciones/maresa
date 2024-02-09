@@ -4157,9 +4157,9 @@ FOOTER
 -----------------------------------*/
 
 .footer {
-   background: #000;
+    background: #000;
     padding-top: 25px;
-    
+
 }
 
 /*.footer .flex-flow{
@@ -10001,4 +10001,37 @@ li.info-pts span {
     .conoce-footer {
         margin-left: 40px;
     }
+}
+
+.box-category {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 2px #ebebeb;
+    margin-bottom: 30px;
+    background: #f7f7f7;
+}
+
+.box-category ul {
+    list-style: none;
+    height: 200px;
+}
+
+.box-category i {
+    color: green;
+}
+
+.nivel-actual {
+    background: #000;
+    color: #fff;
+}
+.nivel-actual h5 {
+    color: #fff;
+}
+.car {
+    position: absolute;
+    right: 25px;
+    bottom: 40px;
+    height: 70px;
+    /* background: white; */
+    border-radius: 10px;
 }
