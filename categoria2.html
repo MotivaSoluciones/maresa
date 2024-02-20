@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.roadmap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    
+
 
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic,400,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,100italic,300italic,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -294,81 +294,42 @@
         }, {
             date: '35.000 KM',
             content: '<ul class="lista">' +
-                      '  <li><i class="fa fa-check-circle"></i> 50% dscto en mantenimiento</li>' +
-                    '</ul>'
+                '  <li><i class="fa fa-check-circle"></i> 50% dscto en mantenimiento</li>' +
+                '</ul>'
         }, {
             date: '40.000 KM a 54.999 KM',
             content: '<ul  class="lista">' +
-                        '<li><i class="fa fa-check-circle"></i> Beneficio renovación VH</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 12% de pricing diferenciado por 3 mantenimientos</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 1 encerado o pulida de faros gratis</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 4 x 3 en llantas</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 25% en baterias</li>' +
-                    '</ul>'
+                '<li><i class="fa fa-check-circle"></i> Beneficio renovación VH</li>' +
+                '<li><i class="fa fa-check-circle"></i> 12% de pricing diferenciado por 3 mantenimientos</li>' +
+                '<li><i class="fa fa-check-circle"></i> 1 encerado o pulida de faros gratis</li>' +
+                '<li><i class="fa fa-check-circle"></i> 4 x 3 en llantas</li>' +
+                '<li><i class="fa fa-check-circle"></i> 25% en baterias</li>' +
+                '</ul>'
         }, {
             date: '55.000 KM a 100.000 KM',
             content: '<ul class="lista">' +
-                        '<li><i class="fa fa-check-circle"></i> Cliente VIP por 12 meses</li>' +
-                        '<li><i class="fa fa-check-circle"></i> Recibe + 5000 puntos por  recompra de auto</li>' +
-                        '<li><i class="fa fa-check-circle"></i> Bono marca de renovación de VH</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 25% baterias</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 3 x 4 llantas</li>' +
-                        '<li><i class="fa fa-check-circle"></i> 12% off</li>' +
-                    '</ul>'
+                '<li><i class="fa fa-check-circle"></i> Cliente VIP por 12 meses</li>' +
+                '<li><i class="fa fa-check-circle"></i> Recibe + 5000 puntos por  recompra de auto</li>' +
+                '<li><i class="fa fa-check-circle"></i> Bono marca de renovación de VH</li>' +
+                '<li><i class="fa fa-check-circle"></i> 25% baterias</li>' +
+                '<li><i class="fa fa-check-circle"></i> 3 x 4 llantas</li>' +
+                '<li><i class="fa fa-check-circle"></i> 12% off</li>' +
+                '</ul>'
         }];
 
-        $('#my-timeline').roadmap(myEvents);
 
-        $('#my-timeline').roadmap(myEvents, {
-
-            eventsPerSlide: 4 // default: 6
-
-        });
-        $('#my-timeline').roadmap(myEvents, {
-            slide: 2 // default: 1
-        });
-
-        $('#my-timeline').roadmap(myEvents, {
-
-            // default: 'prev'
-            prevArrow: '<i class="material-icons">keyboard_arrow_left</i>',
-
-            // default: 'next'
-            nextArrow: '<i class="material-icons">keyboard_arrow_right</i>'
-
-        });
-
-        $('#my-timeline').roadmap(myEvents, {
-
-            eventTemplate: '<li class="timeline__events__event">' +
-                '<div class="event">' +
-                '<div class="event__date">####DATE###</div>' +
-                '<div class="event__content">####CONTENT###</div>' +
-                '</div>' +
-                '</li>',
-
-        });
-
-        $('#my-timeline').roadmap(myEvents, {
-
-            // auto, horizontal, vertical
-            orientation: 'auto'
-
-        });
-
-        $('#my-timeline').roadmap(myEvents, {
-
-            rootClass: 'roadmap'
-
-        });
-
-        $('#my-timeline').roadmap(myEvents, {
-
+        var timelineConfig = {
+            slide: 1, // default: 1
+            eventsPerSlide: 4, // default: 6
+            orientation: 'auto', // auto, horizontal, vertical
+            rootClass: 'roadmap',
+            prevArrow: '<i class="fa fa-arrow-left"></i>',
+            nextArrow: '<i class="fa fa-arrow-right"></i>',
             onBuild: function() {
                 console.log('on build event');
             }
-
-        });
+        };
+        $('#my-timeline').roadmap(myEvents, timelineConfig);
 
     </script>
 

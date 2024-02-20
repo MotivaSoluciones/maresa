@@ -10022,9 +10022,11 @@ li.info-pts span {
 
 .lista {
     list-style: none;
-
+font-size: 14px;
 }
-
+.lista i {
+    font-size: 16px;
+}
 .box-category i,
 .lista i {
     color: green;
