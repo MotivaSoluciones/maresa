@@ -154,7 +154,7 @@ button::-moz-focus-inner {
     height: 50px;
     line-height: 44px;
     position: absolute;
-    right: 180px;
+    right:0px;
     top: 4px;
     text-decoration: none;
     text-align: center;
@@ -164,7 +164,7 @@ button::-moz-focus-inner {
     color: #FFF;
     font-style: normal;
     font-size: 55px;
-    font-family: Arial;
+   
 }
 
 .mfp-close:hover,

@@ -10009,7 +10009,7 @@ li.info-pts span {
 }
 
 .img-inicial {
-    border: 8px solid #fff;
+/*    border: 8px solid #fff;*/
     border-radius: 25px;
 }
 
@@ -10086,5 +10086,28 @@ li.info-pts span {
 
     .box-avance {
         margin: 50px 0 200px 0;
+    }
+}
+
+/*-----POPUP INICIO------*/
+@media(min-width:999px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media(min-width:1000px) {
+    .web {
+        display: block !important;
+    }
+}
+
+.web {
+    display: none;
+}
+
+@media(max-width:999px) {
+    .white-popup {
+        width: auto;
     }
 }
