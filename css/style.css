@@ -10,9 +10,9 @@ Last change: 01/15/2016
     Body Color : #555555
     Accent color: #7d7b7b
 [Typography]
-    Body:       14px/24px Montserrat, sans-serif;
-    Heading:    Montserrat, sans-serif;
-    Input, textarea: 12px/24px Montserrat, sans-serif;
+    Body:       14px/24px Flexo-Regular, sans-serif;
+    Heading:    Flexo-Regular, sans-serif;
+    Input, textarea: 12px/24px Flexo-Regular, sans-serif;
 
 [Component module]
     FONTFACE
@@ -31,19 +31,7 @@ Last change: 01/15/2016
  FONTFACE 
 ------------------*/
 
-@font-face {
-    font-family: 'DearPrudence';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DearPrudence-Regular'), url('../fonts/DearPrudence-Regular.otf') format('opentype');
-}
 
-@font-face {
-    font-family: 'LaCompagnie';
-    font-style: normal;
-    font-weight: normal;
-    src: local('la-Compagnie-des-Ombres'), url('../fonts/la-Compagnie-des-Ombres.ttf') format('opentype');
-}
 
 @font-face {
     font-family: "Flaticon";
@@ -57,19 +45,17 @@ Last change: 01/15/2016
 }
 
 @font-face {
-    font-family: 'Montserrat Light';
+    font-family: 'Flexo-Medium';
     font-style: normal;
     font-weight: 300;
-    src: local('Montserrat Light'),
-        local('Montserrat-Light'),
-        url("../fonts/Montserrat-Light.ttf") format('opentype'),
+    src: local('Flexo-Medium'),url("../fonts/Flexo-Medium.otf") format('opentype'),
 }
 
 @font-face {
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Montserrat-Light'), url('../fonts/Montserrat-Light.ttf') format('opentype');
+    src: local('Flexo-Regular'), url('../fonts/Flexo-Regular.otf') format('opentype');
 }
 
 [class^="flaticon-"]:before,
@@ -107,7 +93,7 @@ COMMON STYLES
 ---------------------*/
 
 body {
-    font-family: 'Montserrat';
+    font-family: 'Flexo-Regular';
     font-size: 14px;
     line-height: 24px;
     color: #555;
@@ -304,13 +290,6 @@ input[type="submit"]:hover:after {
     padding: 13px 25px;
 }
 
-
-
-.PlayfairDisplay {
-    font-family: 'PlayfairDisplay';
-    font-style: italic;
-}
-
 .text-primary {
     color: #7d7b7b;
 }
@@ -322,7 +301,7 @@ input[type="submit"]:hover:after {
 }
 
 blockquote {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-style: italic;
     font-size: 14px;
     color: #303030;
@@ -841,7 +820,7 @@ blockquote.style2:after {
     margin: 0;
     padding: 0;
     display: inline-block;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 13px;
 
 }
@@ -2489,7 +2468,7 @@ blockquote.style2:after {
 
 .header-bottom-sidebar-menu {
     margin: 0;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     text-transform: none;
     font-size: 13px;
     margin-bottom: 20px;
@@ -4071,11 +4050,11 @@ ICON
     -moz-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .element-icon.style3 .subtite {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     color: #7d7b7b;
     font-size: 14px;
     font-style: italic;
@@ -4123,17 +4102,17 @@ ICON
 .element-icon.style4 .title {
     font-size: 18px;
     margin: 0;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .element-icon.style4 .title strong {
-    font-family: 'Montserrat';
+    font-family: 'Flexo-Regular';
     font-weight: 700;
 }
 
 .element-icon.style4 .subtite {
     color: #666;
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-size: 14px;
 }
 
@@ -4332,7 +4311,7 @@ FOOTER
 .footer.style2 {
     background-color: #f0f0f0;
     color: #666;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 13px;
 }
 
@@ -4346,7 +4325,7 @@ FOOTER
 
 .footer.style2 .widget .widget-title {
     color: #333;
-    font-family: 'Montserrat';
+    font-family: 'Flexo-Regular';
 }
 
 .footer.style2 .contact-info .phone {
@@ -4454,7 +4433,7 @@ FOOTER
 .footer.style4 {
     text-align: center;
     font-size: 13px;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .footer.style4 .contact-info .logo {
@@ -4495,7 +4474,7 @@ FOOTER
 .footer.style5 {
     text-align: center;
     font-size: 13px;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .footer.style5 .widget {
@@ -4790,7 +4769,7 @@ FOOTER
 .section-title .sub-title {
     color: #555555;
     display: block;
-    font-family: "Playfair Display", serif;
+    font-family: "Flexo-Regular", serif;
     font-size: 14px;
     font-style: italic;
     position: relative;
@@ -5177,7 +5156,7 @@ FOOTER
 }
 
 .lastest-blog.style3 .metas {
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 12px;
 }
 
@@ -5192,7 +5171,7 @@ FOOTER
 }
 
 .lastest-blog.style3 .desc {
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 13px;
 }
 
@@ -5228,7 +5207,7 @@ FOOTER
 
 .lastest-blog.style4 .blog-date {
     padding: 0;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     margin-bottom: 15px;
 }
 
@@ -5263,7 +5242,7 @@ FOOTER
 }
 
 .lastest-blog.style5 .metas {
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     text-transform: uppercase;
     font-size: 10px;
     color: #666666;
@@ -5280,7 +5259,7 @@ FOOTER
 }
 
 .lastest-blog.style5 .metas .date .day {
-    font-family: 'Montserrat';
+    font-family: 'Flexo-Regular';
     font-weight: 700;
     font-size: 24px;
 }
@@ -5288,7 +5267,7 @@ FOOTER
 .lastest-blog.style5 .metas .date .day:after {
     content: '/';
     display: inline-block;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 16px;
 }
 
@@ -5378,7 +5357,7 @@ FOOTER
     font-size: 14px;
     margin-bottom: 40px;
     width: 100%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Flexo-Regular', serif;
     font-style: italic;
     font-weight: 400;
 }
@@ -5786,7 +5765,7 @@ FOOTER
 }
 
 .banner-text .sub-title {
-    font-family: "Playfair Display", serif;
+    font-family: "Flexo-Regular", serif;
     font-size: 16px;
     font-style: italic;
     display: block;
@@ -6473,7 +6452,7 @@ FOOTER
 }
 
 .product-details-right.style2 {
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     width: 100%;
     float: left;
 }
@@ -6481,7 +6460,7 @@ FOOTER
 .product-details-right.style2 .product-name {
     color: #000;
     margin-bottom: 0;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .product-details-right.style2 .short-descript {
@@ -6492,7 +6471,7 @@ FOOTER
 
 .product-details-right .price {
     margin-bottom: 20px;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .product-details-right.style2 .cart-form {
@@ -6786,7 +6765,7 @@ table.group-product a:hover {
 
 table.group-product .price {
     margin: 0;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 14px;
 }
 
@@ -6922,7 +6901,7 @@ BLOG PAGE
 
 .comment-social > h4 {
     color: #333;
-    font-family: "Playfair Display", serif;
+    font-family: "Flexo-Regular", serif;
     font-size: 18px;
     font-style: italic;
     display: inline-block;
@@ -6937,7 +6916,7 @@ BLOG PAGE
 
 .comment-social .social span {
     color: #333333;
-    font-family: "Playfair Display", serif;
+    font-family: "Flexo-Regular", serif;
     font-size: 13px;
     font-style: italic;
     font-weight: 400;
@@ -6963,7 +6942,7 @@ BLOG PAGE
 #comments-list > h4 {
     color: #333;
     float: left;
-    font-family: "Playfair Display", serif;
+    font-family: "Flexo-Regular", serif;
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
@@ -7048,7 +7027,7 @@ BLOG PAGE
 
 #comments .comment-list .comment-content {
     color: #555555;
-    font-family: playfair display;
+    font-family: Flexo-Regular;
     font-size: 13px;
     font-style: italic;
     display: table;
@@ -7160,7 +7139,7 @@ BLOG PAGE
 .butique-banner .bottom {
     font-size: 13px;
     color: #666;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .butique-banner .block-link {
@@ -7190,7 +7169,7 @@ BLOG PAGE
     border-radius: 50%;
     float: left;
     background-color: #7d7b7b;
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-style: italic;
     font-weight: 700;
     font-size: 36px;
@@ -7273,7 +7252,7 @@ BLOG PAGE
 
 .butique-banner .head .subtitle {
     font-size: 30px;
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-style: italic;
     font-weight: 700;
     color: #7d7b7b;
@@ -7416,7 +7395,7 @@ BLOG PAGE
 
 .testimonials .testimonial-info {
     font-size: 13px;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     color: #fff;
     text-align: center;
     max-width: 430px;
@@ -7430,7 +7409,7 @@ BLOG PAGE
 .testimonials h6 {
     color: #fff;
     margin: 0;
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-size: 18px;
     font-style: italic;
 }
@@ -7559,7 +7538,7 @@ BLOG PAGE
 }
 
 .block-banner-text .text a {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
@@ -7594,7 +7573,7 @@ BLOG PAGE
 }
 
 .block-text-border .link {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
@@ -7751,7 +7730,7 @@ BLOG PAGE
     border: none;
     border-bottom: 1px solid #ccc;
     padding-left: 0;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     font-size: 13px;
     width: 100%;
 }
@@ -7826,7 +7805,7 @@ BLOG PAGE
     background-color: #7d7b7b;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .block-text p {
@@ -7835,7 +7814,7 @@ BLOG PAGE
 
 .block-text .primary {
     font-size: 18px;
-    font-family: 'Montserrat';
+    font-family: 'Flexo-Regular';
     font-weight: 700;
 }
 
@@ -8002,7 +7981,7 @@ BLOG PAGE
     text-transform: uppercase;
     font-size: 12px;
     color: #666;
-    font-family: 'Montserrat';
+    font-family: 'Flexo-Regular';
     width: 100%;
     text-decoration: underline;
     text-align: center;
@@ -8029,7 +8008,7 @@ BLOG PAGE
 }
 
 .page-banner .banner-content .subtitle {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-size: 18px;
     font-style: italic;
 }
@@ -8062,7 +8041,7 @@ BLOG PAGE
 }
 
 .team .position {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-size: 13px;
     font-style: italic;
 }
@@ -8114,7 +8093,7 @@ BLOG PAGE
 
 .testimonial .text {
     font-size: 13px;
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-style: italic;
     padding-bottom: 50px;
 }
@@ -8125,7 +8104,7 @@ BLOG PAGE
 }
 
 .testimonial .position {
-    font-family: 'Playfair Display';
+    font-family: 'Flexo-Regular';
     font-style: italic;
 }
 
@@ -8264,7 +8243,7 @@ table {
     border: 1px solid #dddddd;
     padding: 26px 30px;
     margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     padding-bottom: 55px;
 }
 
@@ -8283,7 +8262,7 @@ table {
 }
 
 .box-cart-total .price {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     color: #222;
 }
 
@@ -8364,14 +8343,14 @@ table {
 .shop-table.order td.total,
 .shop-table.order th.total {
     text-align: right;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     color: #222;
 }
 
 .shop-table.order .order-total td {
     background-color: #111111;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     padding: 13px 25px;
     border: none;
 }
@@ -8387,7 +8366,7 @@ table {
 }
 
 .payment_methods .payment_method label {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     font-weight: normal;
     margin-bottom: 0;
     display: inline-block;
@@ -8696,7 +8675,7 @@ table {
     margin-top: 60px;
     padding: 87px 0 110px 0;
     background-image: url('../images/slides/pralax3.png');
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
     background-position: center;
 }
 
@@ -8707,7 +8686,7 @@ table {
 .block-paralax3 .title {
     font-size: 48px;
     color: #333;
-    font-family: 'MontserratLight';
+    font-family: 'Flexo-Regular';
 }
 
 .section-block-text {
@@ -9946,12 +9925,9 @@ li.info-pts {
     margin: 12px 30px 0 0;
 }
 
-/*
-.header.style3 .main-menu > li:nth-last-child(3), 
-.header.style3 .main-menu > li:nth-last-child(4) {
+.header.style3 .main-menu .menu-item-has-children .sub-menu> li:nth-last-child(2) {
     display: none;
 }
-*/
 
 /*MODAL INGRESO*/
 
