@@ -48,7 +48,7 @@ Last change: 01/15/2016
     font-family: 'Flexo-Medium';
     font-style: normal;
     font-weight: 300;
-    src: local('Flexo-Medium'),url("../fonts/Flexo-Medium.otf") format('opentype'),
+    src: local('Flexo-Medium'), url("../fonts/Flexo-Medium.otf") format('opentype'),
 }
 
 @font-face {
@@ -9925,7 +9925,7 @@ li.info-pts {
     margin: 12px 30px 0 0;
 }
 
-.header.style3 .main-menu .menu-item-has-children .sub-menu> li:nth-last-child(2) {
+.header.style3 .main-menu .menu-item-has-children .sub-menu > li:nth-last-child(2) {
     display: none;
 }
 
@@ -9985,7 +9985,7 @@ li.info-pts span {
 }
 
 .img-inicial {
-/*    border: 8px solid #fff;*/
+    /*    border: 8px solid #fff;*/
     border-radius: 25px;
 }
 
@@ -10005,7 +10005,12 @@ li.info-pts span {
 
 .box-category ul {
     list-style: none;
-    height: 200px;
+
+}
+
+.box-category ul li {
+    font-size: 12px;
+
 }
 
 .lista {
@@ -10024,19 +10029,19 @@ li.info-pts span {
 }
 
 .nivel-actual {
-    background: #000;
-    color: #fff;
+    background: #000!important;
+    color: #fff!important;
 }
 
-.nivel-actual h5 {
-    color: #fff;
+.nivel-actual h2 {
+    color: #fff!important;
 }
 
 .car {
     position: absolute;
-    right: 25px;
+    right: 10px;
     bottom: 40px;
-    height: 50px;
+    height: 70px;
     /* background: white; */
     border-radius: 10px;
 }
@@ -10049,7 +10054,7 @@ li.info-pts span {
     .lista {
 
         font-size: 12px !important;
-        
+
     }
 
     .lista i {
