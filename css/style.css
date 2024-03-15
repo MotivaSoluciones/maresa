@@ -186,6 +186,7 @@ input[type="tel"] {
     padding: 6px 15px;
     color: #747474;
     max-width: 100%;
+    border-radius: 8px;
 }
 
 input[type="text"]:focus,
@@ -1025,7 +1026,7 @@ blockquote.style2:after {
     background-color: #fff;
     z-index: 10;
     text-align: left;
-    font-family: 'Roboto';
+
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -1395,7 +1396,7 @@ blockquote.style2:after {
 
 .box-search {
     position: relative;
-    font-family: 'Roboto';
+
 }
 
 .box-search .search {
@@ -1544,7 +1545,7 @@ blockquote.style2:after {
 }
 
 .setting-option {
-    font-family: 'Roboto';
+
     padding-top: 13px;
 }
 
@@ -3027,9 +3028,7 @@ DS .product-list .product-item {
     color: #fff;
 }
 
-.product-item.list .short-descript {
-    font-family: 'Roboto';
-}
+.product-item.list .short-descript {}
 
 .product-item.list .available {
     text-transform: uppercase;
@@ -3384,7 +3383,7 @@ DS .product-list .product-item {
 /* BREADCRUMBS */
 
 .breadcrumbs {
-    font-family: 'Roboto';
+
     color: #555;
     display: inline-block;
 }
@@ -3416,7 +3415,7 @@ DS .product-list .product-item {
 
 .woocommerce-result-count {
     display: inline-block;
-    font-family: 'Roboto';
+
 }
 
 .orderby-wapper .chosen-container-single .chosen-single {
@@ -3534,7 +3533,7 @@ DS .product-list .product-item {
 .widget_product_categories li,
 .widget_layered_nav li {
     line-height: 40px;
-    font-family: 'Roboto';
+
     font-size: 15px;
 }
 
@@ -3564,7 +3563,7 @@ DS .product-list .product-item {
 
 .tagcloud {
     overflow: hidden;
-    font-family: 'Roboto';
+
     text-align: center;
 }
 
@@ -3595,7 +3594,7 @@ DS .product-list .product-item {
 
 .widget_price_filter .price_slider_wrapper {
     padding-top: 10px;
-    font-family: 'Roboto';
+
 }
 
 .widget_price_filter .slider-range-price {
@@ -3909,13 +3908,13 @@ ICON
 .element-icon .content {
     overflow: hidden;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
 }
 
 .element-icon.style2 {
     border: 1px dashed #37623b;
     padding: 48px;
-
+    border-radius: 8px;
     display: table;
     width: 100%;
 
@@ -3978,6 +3977,7 @@ ICON
 .element-icon.style2 .title {
     margin: 0;
     margin-bottom: 7px;
+    font-weight: 600;
 }
 
 
@@ -4928,7 +4928,7 @@ FOOTER
 .title-border .subtext {
     color: #999;
     margin-left: 20px;
-    font-family: 'Roboto';
+
     font-weight: normal;
 }
 
@@ -4956,7 +4956,7 @@ FOOTER
     font-size: 60px;
     line-height: 49px;
     margin-right: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     font-weight: 100;
 }
 
@@ -4966,7 +4966,7 @@ FOOTER
     float: left;
     font-size: 13px;
     color: #555555;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     font-weight: 300;
 }
 
@@ -5045,7 +5045,7 @@ FOOTER
     color: #fff;
     width: auto;
     padding: 15px;
-    font-family: 'Roboto';
+
     font-weight: 300;
     display: table;
 }
@@ -5136,7 +5136,7 @@ FOOTER
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
-    font-family: 'Roboto';
+
     font-weight: 100;
     z-index: 1;
     opacity: 0;
@@ -5377,7 +5377,7 @@ FOOTER
     font-size: 13px;
     color: #aaaaaa;
     padding: 0;
-    font-family: 'Roboto';
+
     padding-left: 10px;
     width: 100%;
 }
@@ -5412,6 +5412,7 @@ FOOTER
     padding: 40px 30px;
     border: 1px solid #ccc;
     background: #fff;
+    border-radius: 8px;
 }
 
 .newsletter.style2:after {
@@ -6128,7 +6129,7 @@ FOOTER
 }
 
 .block-single-product .desc {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 60px;
@@ -6179,7 +6180,7 @@ FOOTER
 }
 
 .block-single-product .attributes {
-    font-family: 'Roboto';
+
     font-weight: 300;
 }
 
@@ -6354,7 +6355,7 @@ FOOTER
 }
 
 .product-details-right .short-descript {
-    font-family: 'Roboto';
+
     margin-bottom: 20px;
 }
 
@@ -6639,7 +6640,7 @@ FOOTER
 }
 
 .tab-details-product .tab-container {
-    font-family: 'Roboto';
+
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 50px;
 }
@@ -6693,9 +6694,7 @@ FOOTER
     float: left;
 }
 
-.box-list-reviews .commentlist .comment .comment-content {
-    font-family: 'Roboto';
-}
+.box-list-reviews .commentlist .comment .comment-content {}
 
 .box-list-reviews .meta span {
     display: block;
@@ -6703,7 +6702,7 @@ FOOTER
 }
 
 .box-list-reviews .meta .date {
-    font-family: 'Roboto';
+
     color: #999;
 }
 
@@ -6712,7 +6711,7 @@ FOOTER
 }
 
 .form-review {
-    font-family: 'Roboto';
+
     overflow: hidden;
 }
 
@@ -6852,7 +6851,7 @@ BLOG PAGE
 
 .blog-item .entry-meta {
     font-size: 13px;
-    font-family: 'Roboto';
+
     margin-bottom: 10px;
     color: #222;
 
@@ -6959,7 +6958,7 @@ BLOG PAGE
     width: 68%;
     overflow: hidden;
     padding-left: 25px;
-    font-family: 'Roboto';
+
 }
 
 .author-info-wrap .avatar {
@@ -7013,7 +7012,7 @@ BLOG PAGE
 }
 
 #comments .comment-list .date-comment {
-    font-family: 'Roboto';
+
     font-size: 13px;
 }
 
@@ -8140,7 +8139,8 @@ BLOG PAGE
 .kt-contact-form input[type="text"],
 .kt-contact-form textarea {
     width: 100%;
-    font-family: 'Roboto';
+    border-radius: 8px;
+
 }
 
 /*
@@ -8257,7 +8257,7 @@ table {
 .box-cart-total table td {
     padding: 10px 0;
     vertical-align: top;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     padding-right: 10px;
 }
 
@@ -8311,7 +8311,7 @@ table {
 /*Check out*/
 
 .form-checkout {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
     margin-bottom: 50px;
 }
 
@@ -8433,7 +8433,7 @@ table {
 .kt-popup-newsletter .form-subscribe .input {
     width: 100%;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
 }
 
 .kt-popup-newsletter .form-subscribe .button {
@@ -8448,7 +8448,7 @@ table {
     font-size: 13px;
     color: #888888;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Flexo-Regular', sans-serif;
 }
 
 .kt-popup-newsletter .checkbox label {
@@ -10029,12 +10029,12 @@ li.info-pts span {
 }
 
 .nivel-actual {
-    background: #000!important;
-    color: #fff!important;
+    background: #000 !important;
+    color: #fff !important;
 }
 
 .nivel-actual h2 {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .car {
@@ -10091,4 +10091,11 @@ li.info-pts span {
     .white-popup {
         width: auto;
     }
+}
+
+.radio {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 15px 15px 0;
 }

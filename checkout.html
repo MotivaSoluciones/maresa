@@ -20,6 +20,12 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic,400,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,100italic,300italic,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="icon" type="" href="images/Maresa_Fabicon.ico">
+        <style>
+        .chosen-container {
+            width: 100%!important;
+        }
+
+    </style>
 </head>
 
 <body class="home">
@@ -149,11 +155,59 @@
     <div class="product-details-full">
         <div class="container">
             <div class="main-content">
-
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="product-details-right" style="background: #000;">
+                            <p style="color: #fff;display: inline-block;margin-bottom: 0;">Usted no cuenta con los puntos suficientes para realizar este canje. <br> Compra puntos adicionales y llévate estos increíbles productos.</p>
+                            <a class="button" style="margin-top: 0;float: right;background: #666" data-toggle="modal" data-target="#compra">Comprar puntos</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="product-details-right">
-                            <h4 style="font-weight: 600">Resumen de tu canje (2 productos)</h4>
+                            <h4 style="font-weight: 600"><span class="pe-7s-map-marker"></span> ¿En dónde recibirás tu pedido?</h4>
+                            <div class="row margin-top-20">
+                                <div class="col-md-12">
+                                   
+                                    <div class="radio">
+                                        <label style="width: 100%">
+                                            <input type="radio" name="optradio" checked>
+                                            <span style="font-weight: 600">Casa</span> <br>
+                                            <p style="display: inline-block">Calle Santa Isabel 265 Dpto 201, Miraflores, Lima</p>
+                                            <a data-toggle="modal" data-target="#direccion" style="text-decoration: underline;float: right"><span class="pe-7s-pen"></span> Editar</a>
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label style="width: 100%">
+                                            <input type="radio" name="optradio" checked>
+                                            <span style="font-weight: 600">Casa de playa</span> <br>
+                                            <p style="display: inline-block">Av. Grau 309, Pucusana, Lima</p>
+                                            <a data-toggle="modal" data-target="#direccion" style="text-decoration: underline;float: right"><span class="pe-7s-pen"></span> Editar</a>
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label style="width: 100%">
+                                            <input type="radio" name="optradio" checked>
+                                            <span style="font-weight: 600">Oficina</span> <br>
+                                            <p style="display: inline-block">Calle Carlos Ferreyros 265 Dpto 201, San Isidro, Lima</p>
+                                            <a data-toggle="modal" data-target="#direccion" style="text-decoration: underline;float: right"><span class="pe-7s-pen"></span> Editar</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-top-20">
+                                <div class="col-md-12">
+                                    <a data-toggle="modal" data-target="#direccion" style="text-decoration: underline">+ Agregar nueva dirección</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="product-details-right">
+                            <h4 style="font-weight: 600"><span class="pe-7s-cart"></span> Resumen de tu canje (2 productos)</h4>
                             <div class="widget widget_recent_product row margin-top-30">
                                 <div class="col-md-12">
                                     <ul class="product-categories">
@@ -185,7 +239,7 @@
                                         <li>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h5 style="font-weight: 600">TOTAL:</h5>
+                                                    <h5 style="font-weight: 600">Total:</h5>
                                                 </div>
                                                 <div class="col-md-6 text-right">
                                                     <p style="font-weight: 600;font-size: 18px;color: #222;margin-bottom: 0">1000 puntos</p>
@@ -195,55 +249,14 @@
                                     </ul>
                                 </div>
                             </div>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="product-details-right">
-                            <h4 style="font-weight: 600">Detalle de envío</h4>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Dirección de envío</label><br>
-                                    <select name="" class="normal" id="" style="width: 100%;height: 40px">
-                                        <option value="" class="normal">Seleccionar</option>
-                                        <option value="" class="normal">Casa</option>
-                                        <option value="" class="normal">Oficina</option>
-                                        <option value="" class="normal">Casa de playa</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Dirección</label><br>
-                                    <input type="text" style="width: 100%" value="Calle Santa Isabel 265 Dpto 201 - MIRAFLORES - LIMA - LIMA" disabled>
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Correo electrónico</label><br>
-                                    <input type="text" style="width: 100%">
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Celular de contacto</label><br>
-                                    <input type="text" style="width: 100%">
-                                </div>
-                            </div>
-
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Indicaciones particulares</label><br>
-                                    <input type="text" style="width: 100%">
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
+                            <div class="row" style="margin-top: 15px;">
                                 <div class="col-sm-12">
-                                    <a class="button " style="width: 100%;" href="checkout-ok.html">Continuar canje</a>
+                                    <a href="checkout-ok.html" class="button " style="width: 100%;">Confirmar canje</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <br>
 
@@ -292,6 +305,57 @@
         }
 
     </script>
+
+    <div class="modal fade" id="compra" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
+            <div class="modal-content">
+                <div class="modal-header" style="padding: 20px 40px">
+                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px;vertical-align: middle;"></span> ¿Desea comprar los puntos?</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                </div>
+                <div class="modal-body margin-bottom-20" style="padding: 20px 40px">
+                    <div class="row margin-bottom-20">
+                        <div class="col-md-6">
+                            <h5 style="font-weight: 600">Cantidad:</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="font-weight: 600">500 Puntos*</h5>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-20">
+                        <div class="col-md-6">
+                            <h5 style="font-weight: 600">Monto a pagar:</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="font-weight: 600">8.96 $USD</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="dis-betw">
+                                <p class="mrg-0">El monto total incluye I.V.A: 0.96 $USD</p>
+                                <div class="txt-rg">
+                                    <img src="images/iconos/logo-masterc.png" alt="" width="60">
+                                    <img src="images/iconos/logo-visa.png" alt="" width="50">
+                                </div>
+                            </div>
+                            <p class="mrg-top20">*Solo podrá comprar puntos una vez por año. La cantidad máxima de puntos a comprar por año equivale a la mitad de los puntos al momento de la compra.</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <a data-dismiss="modal" class="button ">Comprar puntos</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            o <a data-dismiss="modal" style="text-decoration: underline;cursor: pointer">Cancelar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" id="codigo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
@@ -362,6 +426,78 @@
             </div>
         </div>
     </div>
+        <div class="modal fade" id="direccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
+            <div class="modal-content">
+                <div class="modal-header" style="border-bottom: 0;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
+                    <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"><span class="icon pe-7s-map-marker" style="font-size: 25px"></span> Editar dirección</h4>
+                </div>
+                <div class="modal-body " style="margin-bottom: 20px;">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="">Tipo de vivienda</label><br>
+                            <select name="" id="" style="width: 100%!important">
+                                <option value="" >Seleccionar</option>
+                                <option value="" >Casa</option>
+                                <option value="" >Casa de playa</option>
+                                <option value="" >Oficina</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="">Provincia</label><br>
+                            <select name="" id="" style="width: 100%!important">
+										<option value="" >Seleccionar</option>
+										<option value="" >Lorem</option>
+										<option value="" >Ipsum</option>
+										<option value="" >Lorem</option>
+									</select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Cantón</label><br>
+                            <select name="" class="normal" id="" style="width: 100%;">
+										<option value="" class="normal">Seleccionar</option>
+										<option value="" class="normal">Lorem</option>
+										<option value="" class="normal">Ipsum</option>
+										<option value="" class="normal">Lorem</option>
+									</select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Tipo de zona</label><br>
+                            <select name="" id="" style="width: 100%;">
+										<option value="" class="normal">Seleccionar</option>
+										<option value="" class="normal">Lorem</option>
+										<option value="" class="normal">Ipsum</option>
+										<option value="" class="normal">Lorem</option>
+									</select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Tipo de construcción</label><br>
+                            <select name="" id="" style="width: 100%;">
+										<option value="" class="normal">Seleccionar</option>
+										<option value="" class="normal">Lorem</option>
+										<option value="" class="normal">Ipsum</option>
+										<option value="" class="normal">Lorem</option>
+									</select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Dirección</label><br>
+                            <input type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Referencia</label><br>
+                            <input type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-6 margin-top-50">
+                            <a class="button button-add-cart" href="checkout.html">Guardar dirección</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
